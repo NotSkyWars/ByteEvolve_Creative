@@ -147,7 +147,7 @@ public class Command_plot implements CommandExecutor {
     private void sendHelp(CommandSender commandSender) {
         commandSender.sendMessage(Creative.getInstance().getPrefix() + "§7/plot <§bcreate§7> : Erstelle dir ein §bPlot§7.");
         commandSender.sendMessage(Creative.getInstance().getPrefix() + "§7/plot <§bhome§7> <§bID§7> : Teleportiere dich zu deinem §bPlot§7.");
-        commandSender.sendMessage(Creative.getInstance().getPrefix() + "§7/plot <§bteleport§7> <§bID§7> : Teleportiere dich zu einem §bPlot§7.");
+        commandSender.sendMessage(Creative.getInstance().getPrefix() + "§7/plot <§bteleport§7> <§bSpieler§7> <§bID§7> : Teleportiere dich zu einem §bPlot§7.");
         commandSender.sendMessage(Creative.getInstance().getPrefix() + "§7/plot <§binfo§7> : Bekomme Informationen über ein §bPlot§7.");
         commandSender.sendMessage(Creative.getInstance().getPrefix() + "§7/plot <§bchangeground§7> : Ändere den Boden deines §bPlots§7.");
     }
