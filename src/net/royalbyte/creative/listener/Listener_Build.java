@@ -38,6 +38,7 @@ public class Listener_Build implements Listener {
                 player.sendMessage(Creative.getInstance().getPrefix() + "§cHier kannst du nicht bauen.");
             }
         }
+        System.out.println("Test");
 
     }
 
